@@ -12,10 +12,11 @@
     <div id="card-main" class="container">
         
         @foreach ($comics as $comic)
-            <div>
-                <img src="{{url($comic->image)}}" alt="">
+            <div id="single-card">
+                <div>
+                    <img src="{{url($comic->image)}}" alt="">
+                </div>
                 <p>{{$comic->title}}</p>
-                <p>{{$comic->type}}</p>
             </div>
         @endforeach
     

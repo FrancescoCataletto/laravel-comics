@@ -13,7 +13,7 @@
 // JUMBOTRON
 #jumbo{
     height: 400px;
-    background-image: url('../../public/img/jumbotron.jpg');
+    background-image: url("../img/jumbotron.jpg");
     background-size: cover;
     position: relative;
 }
@@ -37,6 +37,20 @@ main{
 #card-main{
     display: flex;
     flex-wrap: wrap;
+}
+
+#single-card{
+    width: calc(100% / 6);
+    padding-right: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    div{
+      height: 150px;
+      overflow: hidden;
+      img{
+        width: 100%;
+      }
+    }
 }
 
 #load-more{
