@@ -22,3 +22,11 @@ Route::get('fumetti', function () {
 
     return view('comics', ['comics'=>$data]);
 })->name('comics');
+
+Route::get('chi siamo', function () {
+    return view('about');
+})->name('about');
+
+Route::get('contatti', function () {
+    return view('contact');
+})->name('contact');
