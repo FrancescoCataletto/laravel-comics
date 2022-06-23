@@ -1,1 +1,36 @@
 //
+@import 'partials/vars';
+@import 'partials/global';
+@import 'partials/utilities';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $main-font;
+}
+
+// MAIN
+main{
+    background-color: rgb(28, 28, 28);
+    p{
+        color: white;
+    }
+}
+
+#card-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#load-more{
+    width: 100%;
+    text-align: center;
+    button{
+        margin: 30px;
+        padding: 8px 30px;
+        background-color: $brand-color;
+        color: white;
+        cursor: pointer;
+    }
+}
