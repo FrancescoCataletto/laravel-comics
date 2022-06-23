@@ -10,6 +10,12 @@
 <body>
     @include('partials.header')
 
+    <div id="jumbo">
+        <div id="current-series">
+          <p>CURRENT SERIES</p>
+        </div>
+    </div>
+
     @yield('content')
 
     @include('partials.footer')

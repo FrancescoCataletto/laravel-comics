@@ -10,6 +10,22 @@
     font-family: $main-font;
 }
 
+// JUMBOTRON
+#jumbo{
+    height: 400px;
+    background-image: url('../../public/img/jumbotron.jpg');
+    background-size: cover;
+    position: relative;
+}
+#current-series{
+  position: absolute;
+  color: white;
+  padding: 10px 20px;
+  background-color: $brand-color;
+  bottom: -20px;
+  left: 210px;
+}
+
 // MAIN
 main{
     background-color: rgb(28, 28, 28);
