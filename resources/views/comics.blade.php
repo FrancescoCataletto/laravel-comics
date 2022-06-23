@@ -2,6 +2,12 @@
 
 @section('content')
 
+<div id="jumbo">
+    <div id="current-series">
+      <p>CURRENT SERIES</p>
+    </div>
+</div>
+
 <main>
     <div id="card-main" class="container">
         
