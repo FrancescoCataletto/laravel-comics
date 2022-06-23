@@ -14,21 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    
-    return view('layouts/main');
-})->name('link');
-
-Route::get('fumetti', function () {
     $data = config('comics');
     $link = config('headerlinks');
 
     return view('comics', ['comics'=>$data, 'link'=>$link]);
 })->name('comics');
 
-Route::get('chi siamo', function () {
-    return view('about');
-})->name('about');
 
-Route::get('contatti', function () {
-    return view('contact');
-})->name('contact');
+
+
